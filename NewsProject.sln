@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Domain", "01.Domain", "{E26DF286-E45B-43DB-90EB-CC1217CB86D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsProject.Domain.Entities", "01.Domain\NewsProject.Domain.Entities\NewsProject.Domain.Entities.csproj", "{7B11A023-CB8B-4275-9411-D7ED5C41BDDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsProject.Domain.Contracts", "01.Domain\NewsProject.Domain.Contracts\NewsProject.Domain.Contracts.csproj", "{5A099A66-B40E-41C4-A89D-3E2D65F276E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Services", "02.Services", "{30D0D227-DD89-4AB0-A531-44CDC56E72B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Database", "03.Database", "{50D3EA55-1A10-4BF4-8032-E34721E9DA56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.UI", "04.UI", "{66500939-FA1D-466B-ACA2-732B39E78EEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsProject.DataBase.EF", "03.Database\NewsProject.DataBase.EF\NewsProject.DataBase.EF.csproj", "{B4153C58-2C76-489C-B6EF-9F210832E1B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsProject.UI.Console", "04.UI\NewsProject.UI.Console\NewsProject.UI.Console.csproj", "{2E4CF08B-2A8B-4896-8477-88D5150FEB99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B11A023-CB8B-4275-9411-D7ED5C41BDDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B11A023-CB8B-4275-9411-D7ED5C41BDDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B11A023-CB8B-4275-9411-D7ED5C41BDDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B11A023-CB8B-4275-9411-D7ED5C41BDDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A099A66-B40E-41C4-A89D-3E2D65F276E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A099A66-B40E-41C4-A89D-3E2D65F276E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A099A66-B40E-41C4-A89D-3E2D65F276E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A099A66-B40E-41C4-A89D-3E2D65F276E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4153C58-2C76-489C-B6EF-9F210832E1B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4153C58-2C76-489C-B6EF-9F210832E1B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4153C58-2C76-489C-B6EF-9F210832E1B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4153C58-2C76-489C-B6EF-9F210832E1B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E4CF08B-2A8B-4896-8477-88D5150FEB99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E4CF08B-2A8B-4896-8477-88D5150FEB99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E4CF08B-2A8B-4896-8477-88D5150FEB99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E4CF08B-2A8B-4896-8477-88D5150FEB99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7B11A023-CB8B-4275-9411-D7ED5C41BDDF} = {E26DF286-E45B-43DB-90EB-CC1217CB86D7}
+		{5A099A66-B40E-41C4-A89D-3E2D65F276E0} = {E26DF286-E45B-43DB-90EB-CC1217CB86D7}
+		{B4153C58-2C76-489C-B6EF-9F210832E1B3} = {50D3EA55-1A10-4BF4-8032-E34721E9DA56}
+		{2E4CF08B-2A8B-4896-8477-88D5150FEB99} = {66500939-FA1D-466B-ACA2-732B39E78EEF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3220D073-3CFC-48EC-8615-7ECDB146F178}
+	EndGlobalSection
+EndGlobal

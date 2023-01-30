@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\01.Domain\NewsProject.Domain.Contracts\NewsProject.Domain.Contracts.csproj" />
+    <ProjectReference Include="..\..\01.Domain\NewsProject.Domain.Entities\NewsProject.Domain.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
